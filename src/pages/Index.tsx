@@ -22,9 +22,10 @@ const Index = () => {
   ];
 
   const galleryImages = [
+    'https://cdn.poehali.dev/files/850a0b27-6d8f-4224-a90e-accef2bd2abf.jpg',
+    'https://cdn.poehali.dev/files/4ae57901-bfcd-41b8-ba09-6372c9043522.png',
     'https://cdn.poehali.dev/projects/4e6443e6-efc5-4388-a77a-670960997189/files/016ec562-6ab8-41b4-a559-5a2401600a93.jpg',
     'https://cdn.poehali.dev/projects/4e6443e6-efc5-4388-a77a-670960997189/files/dcb84fca-cfc6-4524-b341-d67c703f8797.jpg',
-    'https://cdn.poehali.dev/projects/4e6443e6-efc5-4388-a77a-670960997189/files/e4c8ba7f-e2a4-4839-b6e7-30362926b656.jpg',
   ];
 
   useEffect(() => {
@@ -162,7 +163,7 @@ const Index = () => {
               <div className="relative">
                 <div className="absolute inset-0 gradient-accent opacity-20 blur-2xl rounded-3xl"></div>
                 <img 
-                  src="https://cdn.poehali.dev/projects/4e6443e6-efc5-4388-a77a-670960997189/files/e4c8ba7f-e2a4-4839-b6e7-30362926b656.jpg"
+                  src="https://cdn.poehali.dev/files/850a0b27-6d8f-4224-a90e-accef2bd2abf.jpg"
                   alt="Артист"
                   className="relative rounded-3xl shadow-2xl w-full hover-lift animate-pulse-glow"
                 />
