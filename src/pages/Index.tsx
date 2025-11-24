@@ -352,6 +352,11 @@ const Index = () => {
               </form>
               
               <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-border">
+                <div className="text-center mb-6">
+                  <a href="mailto:Zaxarovspirit@list.ru" className="text-primary hover:text-secondary transition-colors text-lg font-semibold">
+                    Zaxarovspirit@list.ru
+                  </a>
+                </div>
                 <div className="flex justify-center gap-4 sm:gap-6">
                   <Button size="lg" variant="ghost" className="hover:text-primary transition-colors">
                     <Icon name="Instagram" size={28} />
@@ -362,8 +367,10 @@ const Index = () => {
                   <Button size="lg" variant="ghost" className="hover:text-primary transition-colors">
                     <Icon name="Music" size={28} />
                   </Button>
-                  <Button size="lg" variant="ghost" className="hover:text-primary transition-colors">
-                    <Icon name="Mail" size={28} />
+                  <Button asChild size="lg" variant="ghost" className="hover:text-primary transition-colors">
+                    <a href="mailto:Zaxarovspirit@list.ru">
+                      <Icon name="Mail" size={28} />
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -373,8 +380,13 @@ const Index = () => {
       </section>
 
       <footer className="py-8 border-t border-border">
-        <div className="container mx-auto px-6 text-center text-muted-foreground">
-          <p>&copy; 2024 Артист. Все права защищены.</p>
+        <div className="container mx-auto px-4 sm:px-6 text-center text-muted-foreground">
+          <p className="mb-2">&copy; 2024 Артист. Все права защищены.</p>
+          <p className="text-sm">
+            <a href="mailto:Zaxarovspirit@list.ru" className="hover:text-primary transition-colors">
+              Zaxarovspirit@list.ru
+            </a>
+          </p>
         </div>
       </footer>
     </div>
